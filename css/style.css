@@ -75,7 +75,7 @@ html.has-xh .xh { opacity: 1; }
 .hero__meta li + li::before { content: "/"; color: var(--r); margin: 0 10px; }
 .hero__meta a:hover { color: var(--r); }
 @media (max-width: 760px) {
-  .hero { height: auto; min-height: 0; --fs: 20.6vw; padding-top: 74px; display: flex; flex-direction: column; }
+  .hero { height: auto; min-height: 0; --fs: 19vw; padding-top: 74px; display: flex; flex-direction: column; }
   .hero__name { position: relative; top: auto; left: auto; transform: none; padding: 0 var(--pad); order: 1; }
   .hero__panel { order: 2; } .hero__meta { order: 3; }
   .hero__panel { position: relative; width: auto; height: 62svh; margin-top: 18px; }
