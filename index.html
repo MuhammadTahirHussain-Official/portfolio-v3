@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Tahir Hussain / AI Engineer</title>
+<meta name="description" content="Muhammad Tahir Hussain. AI engineer, research analyst, coder, problem solver. Work synced live from GitHub.">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23ff2d2d'/%3E%3Cpath d='M6 25V7l10 12L26 7v18' fill='none' stroke='%230b0b0c' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/portrait.webp">
+<link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ar" viewBox="0 0 24 24"><path d="M2 12h19M13 4l8 8-8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square"/></symbol>
+</svg>
+
+<div class="load" id="loader" aria-hidden="true">
+  <i id="loadFill"></i>
+  <span class="mono">make portfolio</span>
+  <b id="loadNum">000</b>
+</div>
+
+<div class="xh" id="xh" aria-hidden="true"><i class="xh__h"></i><i class="xh__v"></i><b class="xh__c"></b><span class="xh__t mono" id="xhT"></span></div>
+<div class="peek" id="peek" aria-hidden="true"><img alt=""></div>
+
+<header class="top mono" id="bar">
+  <a href="#top" class="top__id" data-x="top">MTH<sup>©26</sup></a>
+  <nav>
+    <a href="#work">(02) Work</a>
+    <a href="#stack">(03) Stack</a>
+    <a href="#contact">(04) Contact</a>
+  </nav>
+  <span id="clock">00:00:00</span>
+</header>
+
+<main id="top">
+
+<!-- hero -->
+<section class="hero" id="hero" data-theme="dark">
+  <div class="hero__panel"><canvas id="slit" role="img" aria-label="Portrait of Muhammad Tahir Hussain"></canvas></div>
+  <h1 class="hero__name" aria-label="Muhammad Tahir Hussain">
+    <span class="ln" aria-hidden="true"><span>Muhammad</span></span>
+    <span class="ln" aria-hidden="true"><span>Tahir</span></span>
+    <span class="ln" aria-hidden="true"><span>Hussain</span></span>
+  </h1>
+  <div class="hero__meta mono">
+    <ul><li>AI Engineer</li><li>Research Analyst</li><li>Coder</li><li>Problem Solver</li></ul>
+    <a href="#say" data-x="scroll">Scroll <svg class="ar ar--d"><use href="#ar"/></svg></a>
+  </div>
+</section>
+
+<!-- statement -->
+<section class="say" id="say" data-theme="light">
+  <span class="mono say__n">(01) Readme</span>
+  <p class="say__t" id="sayT">I build systems that learn, and prove that they do.</p>
+</section>
+
+<!-- roles -->
+<section class="roles" id="roles" data-theme="dark">
+  <div class="role" tabindex="0"><span class="mono">01</span><h3>AI Engineer</h3><p class="mono">Models as systems, not demos</p><svg class="ar"><use href="#ar"/></svg></div>
+  <div class="role" tabindex="0"><span class="mono">02</span><h3>Research Analyst</h3><p class="mono">Evidence first, opinions second</p><svg class="ar"><use href="#ar"/></svg></div>
+  <div class="role" tabindex="0"><span class="mono">03</span><h3>Coder</h3><p class="mono">C / C++ / Python</p><svg class="ar"><use href="#ar"/></svg></div>
+  <div class="role" tabindex="0"><span class="mono">04</span><h3>Problem Solver</h3><p class="mono">Find the invariant, then ship</p><svg class="ar"><use href="#ar"/></svg></div>
+</section>
+
+<!-- work: rendered from the GitHub API -->
+<section class="work" id="work" data-theme="light">
+  <header class="head">
+    <span class="mono">(02)</span>
+    <h2 class="disp">Work<sup id="workN">00</sup></h2>
+    <p class="mono" id="sync">Syncing with GitHub</p>
+  </header>
+  <div class="filters mono" id="filters"></div>
+  <ol class="rows" id="rows"></ol>
+</section>
+
+<!-- stack: three rings of type you can spin -->
+<section class="stack" id="stack" data-theme="dark">
+  <header class="head">
+    <span class="mono">(03)</span>
+    <h2 class="disp">Stack</h2>
+    <p class="mono">Drag to spin</p>
+  </header>
+  <div class="drum" id="drum" data-x="drag">
+    <div class="drum__scene">
+      <div class="ring" id="ringLang" data-dir="1" data-words="Python|C|C++|JavaScript|PHP"></div>
+      <div class="ring" data-dir="-1" data-words="PyTorch|pandas|Streamlit|Plotly|Pydantic|Jupyter"></div>
+      <div class="ring" data-dir="1" data-words="Git|CMake|Hugging Face|Kaggle|Colab|Parquet"></div>
+    </div>
+  </div>
+</section>
+
+<!-- contact -->
+<section class="contact" id="contact" data-theme="red">
+  <header class="head head--s">
+    <span class="mono">(04)</span>
+    <p class="mono">Open to hard problems</p>
+  </header>
+  <h2 class="pull" id="pull" aria-label="Let's talk">Let's talk</h2>
+  <div class="links">
+    <a href="mailto:mtahirhussainofficial@gmail.com" data-x="write">Email <svg class="ar ar--u"><use href="#ar"/></svg></a>
+    <a href="https://github.com/MuhammadTahirHussain-Official" target="_blank" rel="noopener" data-x="open">GitHub <svg class="ar ar--u"><use href="#ar"/></svg></a>
+    <a href="https://www.linkedin.com/in/muhammad-tahir-hussain-5ba414403/" target="_blank" rel="noopener" data-x="open">LinkedIn <svg class="ar ar--u"><use href="#ar"/></svg></a>
+  </div>
+  <footer class="foot mono">
+    <span>© <span id="year">2026</span> Muhammad Tahir Hussain</span>
+    <button type="button" id="copy" data-x="copy">Copy email</button>
+    <a href="#top" data-x="top">Top <svg class="ar ar--t"><use href="#ar"/></svg></a>
+  </footer>
+</section>
+
+</main>
+
+<script>/* never leave a visitor behind the loader if a script fails */
+(function(){function k(){var l=document.getElementById("loader");if(l&&!window.__started)l.remove();}window.addEventListener("error",k);setTimeout(k,7000);})();</script>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
