@@ -277,7 +277,9 @@
   })();
 
   /* loader → intro */
-  const loader = $('#loader'), num = $('#loadNum'), fill = $('#loadFill'); let done = false;
+  // on a very slow connection the page's safety timer may already have removed the loader: run the intro without it
+  let loader = $('#loader'); if (!loader) { loader = el('div'); loader.append(el('i'), el('b')); }
+  const num = $('b', loader), fill = $('i', loader); let done = false;
   if (lenis) lenis.stop(); scrollTo(0, 0);
   gsap.set('.hero__name .ln > span', { yPercent: 110 }); gsap.set('.hero__panel', { clipPath: 'inset(0 0 0 100%)' });
   function start() {
